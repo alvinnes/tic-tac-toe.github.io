@@ -50,7 +50,7 @@ const Game = () => {
         setHistory={setHistory}
         setCurrentMove={setCurrentMove}
       />
-      <div className="w-xs md:w-lg lg:w-md text-white flex flex-col mb-4  items-center">
+      <div className="w-sm md:w-lg lg:w-md text-white flex flex-col mb-4  items-center">
         <h3 className="text-2xl font-semibold mt-4">Timeline Game</h3>
         <ol className="w-full md:w-full sm:w-10/12 mt-8">{moves}</ol>
       </div>

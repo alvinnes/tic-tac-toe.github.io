@@ -59,7 +59,7 @@ const Board = (props) => {
           {squares.map((square, id) => (
             <div
               key={id}
-              className={`h-25 sm:h-50 lg:h-40 border-solid border-slate-500 text-white cursor-pointer hover:bg-[#162b44] text-6xl sm:text-8xl flex justify-center items-center ${
+              className={`h-23 sm:h-50 lg:h-40 border-solid border-slate-500 text-white cursor-pointer hover:bg-[#162b44] text-6xl sm:text-8xl flex justify-center items-center ${
                 [0, 1, 3, 4, 6, 7].includes(id) ? "border-r-4" : ""
               } ${id <= 5 ? "border-b-4" : ""}`}
               onClick={() => handleClick(id)}
